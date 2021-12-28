@@ -17,9 +17,10 @@ function App() {
   return (
     <>
       <h1>Convert</h1>
-      <CurrencyRow />
+      <CurrencyRow currencyOptions={currencyOptions} />
       <div className="equals">=</div>
-      <CurrencyRow />
+
+      <CurrencyRow currencyOptions={currencyOptions} />
     </>
   );
 }
